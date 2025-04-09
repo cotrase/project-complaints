@@ -74,8 +74,8 @@ Este proyecto es de uso académico y personal. Puedes adaptarlo y reutilizarlo s
 
 
 ## Proyecto hasta el momento: 
-https://postimg.cc/gallery/h4mxfXS
+[![Imagen.png](https://i.postimg.cc/zfmMzBL1/Imagen.png)](https://postimg.cc/TK9QQTqk)
 
-
+Ver mas... https://postimg.cc/gallery/1zvwbr2
 
 
