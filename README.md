@@ -1,6 +1,7 @@
 # 📝 Sistema de Registro de Quejas
 
 Aplicación web desarrollada en PHP con arquitectura MVC que permite registrar, listar y gestionar quejas por ciudad y departamento.
+Cada Departamento puede tener varias ciudades asociadas.
 
 ## 🚀 Características
 
@@ -70,3 +71,16 @@ Este proyecto es de uso académico y personal. Puedes adaptarlo y reutilizarlo s
 ## 🧑‍💻 Autor
 
 **Edward Romero** - _Ingeniero de Sistemas_
+
+
+## Proyecto hasta el momento: 
+![image](https://github.com/user-attachments/assets/270c81f4-d24d-4111-bbfc-c2b570c4fb73)
+![image](https://github.com/user-attachments/assets/8c49d875-7afa-43d5-8441-0e6b6d248dad)
+![image](https://github.com/user-attachments/assets/8dca8e55-288f-4306-a0b0-e01d1da6c735)
+![image](https://github.com/user-attachments/assets/d17ab0fa-2288-414f-bcb7-c06b43a0d995)
+![image](https://github.com/user-attachments/assets/9d20e6f4-a6ce-4d0d-a0e3-99e543104ec7)
+
+
+
+
+
