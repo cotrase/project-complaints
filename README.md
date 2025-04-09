@@ -1,7 +1,8 @@
 # 📝 Sistema de Registro de Quejas
 
-Aplicación web desarrollada en PHP con arquitectura MVC que permite registrar, listar y gestionar quejas por ciudad y departamento.
-Cada Departamento puede tener varias ciudades asociadas.
+El Sistema de Registro de Quejas es una aplicación web desarrollada en PHP bajo la arquitectura MVC (Modelo-Vista-Controlador). Permite la gestión eficiente de quejas asociadas a ciudades y departamentos. 
+Está orientado a escenarios académicos o institucionales donde se requiere un sistema sencillo pero estructurado para recolectar
+y administrar reportes o quejas.
 
 ## 🚀 Características
 
@@ -21,35 +22,6 @@ Cada Departamento puede tener varias ciudades asociadas.
 - PHP >= 7.4
 - MySQL / MariaDB
 - Servidor local (XAMPP, WAMP o similar)
-
----
-
-## ⚙️ Instalación
-
-1. Clona el repositorio:
-
-```bash
-git clone https://github.com/tuusuario/sirven.git
-```
-
-2. Crea la base de datos
-
-3. Configura tu conexión en `config/config.php`:
-
-```php
-$conexion = new mysqlihost = "";
-$user = ""; 
-$password = ""; 
-$dbname = "";);
-```
-
-4. Asegúrate de que `public/` contenga tus íconos y `style.css`.
-
-5. Inicia el servidor:
-
-```
-http://localhost/project-root/index.php
-```
 
 ---
 
