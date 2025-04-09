@@ -74,11 +74,7 @@ Este proyecto es de uso académico y personal. Puedes adaptarlo y reutilizarlo s
 
 
 ## Proyecto hasta el momento: 
-![image](https://github.com/user-attachments/assets/270c81f4-d24d-4111-bbfc-c2b570c4fb73)
-![image](https://github.com/user-attachments/assets/8c49d875-7afa-43d5-8441-0e6b6d248dad)
-
-![image](https://github.com/user-attachments/assets/0634828d-4c88-4a37-95ba-99864ec17638)
-
+https://postimg.cc/gallery/h4mxfXS
 
 
 
