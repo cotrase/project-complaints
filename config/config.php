@@ -1,10 +1,13 @@
 <?php
-$host = "";
-$user = ""; // cambia si tienes otro usuario
+$host = "localhost";
+$user = "root"; // cambia si tienes otro usuario
 $password = ""; // cambia si tienes contraseña
-$dbname = "";
+$dbname = "quejas_db";
 
-$conexion = new mysqli($host, $user, $password, $dbname);
+
+define('BASE_URL', '/Dev/UNIVERSIDAD/SIRVEN/project-complaints/');
+$conexion = new mysqli("localhost", "root", "", "quejas_db");
+
 
 if ($conexion->connect_error) {
     die("Conexión fallida: " . $conexion->connect_error);

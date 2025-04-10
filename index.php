@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <title>Sistema de Quejas</title>
-    <!-- Bootstrap CDN -->
+    <link rel="icon" type="image/png" sizes="32x32" href="public/favicon_io/favicon-32x32.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Estilo personalizado -->
+    <link rel="stylesheet" href="public/style.css">
     <style>
         body {
             background-color: #f8f9fa;
@@ -18,9 +18,11 @@
             border-radius: 1rem;
         }
     </style>
+    
+  
 </head>
 <body>
-
+<?php include_once 'views/partials/navbar2.php'; ?>
 <div class="container">
     <div class="card shadow-sm p-4">
         <h2 class="mb-4 text-center">Sistema de Registro de Quejas</h2>
@@ -59,9 +61,12 @@
 
 <!-- Bootstrap JS -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+
 <footer class="text-center mt-5 text-muted">
-    &copy; <?= date("Y") ?> Edward Romero - Todos los derechos reservados.
+    &copy; <?= date("Y") ?> Edward Romero | TODOS LOS DERECHOS RESERVADOS
 </footer>
 
 </body>
+
 </html>
