@@ -1,14 +1,23 @@
 <?php
-$host = "localhost";
-$user = "root"; // cambia si tienes otro usuario
-$password = ""; // cambia si tienes contraseña
-$dbname = "quejas_db";
+// Configuración de la base de datos
+$db_config = [
+    'host' => '',
+    'user' => '',
+    'password' => '',
+    'dbname' => '',
+];
 
 
-define('BASE_URL', '/Dev/UNIVERSIDAD/SIRVEN/project-complaints/');
-$conexion = new mysqli("localhost", "root", "", "quejas_db");
 
+// Crear conexión
+$conexion = new mysqli(
+    $db_config['host'],
+    $db_config['user'],
+    $db_config['password'],
+    $db_config['dbname']
+);
 
+// Verificar conexión
 if ($conexion->connect_error) {
     die("Conexión fallida: " . $conexion->connect_error);
 }
